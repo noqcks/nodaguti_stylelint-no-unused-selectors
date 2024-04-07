@@ -29,7 +29,7 @@ const selectorProcessor = createSelectorProcessor();
 function getCSSSource(root: Root): Undefinable<string> {
   return andThenForUndefinable(
     root.source,
-    (s): Undefinable<string> => s.input.file,
+    (s: { input: { file: Undefinable<string> } }): Undefinable<string> => s.input.file,
   );
 }
 
