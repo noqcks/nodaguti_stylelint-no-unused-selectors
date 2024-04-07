@@ -1,5 +1,5 @@
 import path from 'path';
-import { Undefinable } from 'option-t/lib/Undefinable';
+import { Undefinable } from 'option-t/cjs/Undefinable';
 import { unwrapUndefinable } from 'option-t/lib/Undefinable/unwrap';
 import { andThenForUndefinable } from 'option-t/lib/Undefinable/andThen';
 
