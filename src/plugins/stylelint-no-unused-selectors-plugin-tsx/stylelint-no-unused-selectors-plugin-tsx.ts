@@ -1,7 +1,7 @@
 import ts from 'typescript';
 import { Undefinable } from 'option-t/cjs/Undefinable';
 import { unwrapUndefinable } from 'option-t/cjs/Undefinable/unwrap';
-import { andThenForUndefinable } from 'option-t/lib/Undefinable/andThen';
+import { andThenForUndefinable } from 'option-t/cjs/Undefinable/andThen';
 import PostcssSelectorParser from 'postcss-selector-parser';
 
 import { isSimpleSelector } from '../../utils/is-simple-selector';
