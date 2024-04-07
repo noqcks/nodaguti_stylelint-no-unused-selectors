@@ -1,5 +1,5 @@
 import path from 'path';
-import { Undefinable } from 'option-t/cjs/Undefinable';
+import { Undefinable } from 'option-t/lib/Undefinable';
 import PostcssSelectorParser from 'postcss-selector-parser';
 import { PluginSetting } from './options';
 
