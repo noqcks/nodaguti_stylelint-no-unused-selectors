@@ -101,7 +101,7 @@ function extractClassesAndIds(ast: File): { classes: string[]; ids: string[] } {
           if (classNames) {
             const normalisedClassNames = classNames
               .split(' ')
-              .filter((c): boolean => !!c)
+              .filter((c: string): boolean => !!c)
               .map((c): string => `.${c}`);
 
             classes.push(...normalisedClassNames);

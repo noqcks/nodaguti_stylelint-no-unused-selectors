@@ -5716,7 +5716,6 @@ npm@^6.8.0:
     cmd-shim "^3.0.3"
     columnify "~1.5.4"
     config-chain "^1.1.12"
-    debuglog "*"
     detect-indent "~5.0.0"
     detect-newline "^2.1.0"
     dezalgo "~1.0.3"
@@ -5731,7 +5730,6 @@ npm@^6.8.0:
     has-unicode "~2.0.1"
     hosted-git-info "^2.8.8"
     iferr "^1.0.2"
-    imurmurhash "*"
     infer-owner "^1.0.4"
     inflight "~1.0.6"
     inherits "^2.0.4"
@@ -5750,14 +5748,8 @@ npm@^6.8.0:
     libnpx "^10.2.2"
     lock-verify "^2.1.0"
     lockfile "^1.0.4"
-    lodash._baseindexof "*"
     lodash._baseuniq "~4.6.0"
-    lodash._bindcallback "*"
-    lodash._cacheindexof "*"
-    lodash._createcache "*"
-    lodash._getnative "*"
     lodash.clonedeep "~4.5.0"
-    lodash.restparam "*"
     lodash.union "~4.6.0"
     lodash.uniq "~4.5.0"
     lodash.without "~4.4.0"
@@ -5944,10 +5936,10 @@ opener@^1.5.1:
   resolved "https://registry.yarnpkg.com/opener/-/opener-1.5.1.tgz#6d2f0e77f1a0af0032aca716c2c1fbb8e7e8abed"
   integrity sha512-goYSy5c2UXE4Ra1xixabeVh1guIX/ZV/YokJksb6q2lubWu6UbvPQ20p542/sFIll1nl8JnCyK9oBaOcCWXwvA==
 
-option-t@^20.0.0:
-  version "20.3.1"
-  resolved "https://registry.yarnpkg.com/option-t/-/option-t-20.3.1.tgz#6c9490f758edb587679bff73a1ff435e67cf9792"
-  integrity sha512-umjR1qtje0FD7AJbPmrzaaYCmHkh9yWDWUfRtcN8P3o5pv/JYaAVsXu0t3sRj2/Ogcp6Q9jrGRKBWX5DyiQFMQ==
+option-t@^42.1.0:
+  version "42.1.0"
+  resolved "https://registry.yarnpkg.com/option-t/-/option-t-42.1.0.tgz#bfdfcfcf62ba201f2dd9f42cb17e0221c645ab17"
+  integrity sha512-jrfdhKDEH2exwzbTFpgGawWPzGVrTQPEPZPk//qJbjbfmrlyMCnEujCOPe0VD0cglmx1yaLY5EhI0b/RZj0q0w==
 
 optionator@^0.8.1, optionator@^0.8.3:
   version "0.8.3"
