@@ -154,7 +154,7 @@ function extractClassesAndIds(ast: File): { classes: string[]; ids: string[] } {
 
         andThenForUndefinable(
           specifier,
-          (s): void => void cssModuleSpecifiers.push(s),
+          (s: string): void => void cssModuleSpecifiers.push(s),
         );
 
         break;
