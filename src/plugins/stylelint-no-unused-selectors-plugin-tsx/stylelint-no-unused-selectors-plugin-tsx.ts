@@ -216,7 +216,7 @@ function extractClassesAndIds(
           break;
         }
 
-        const className = extractTextFromIdentifier(exprNode.name);
+        const className = extractTextFromIdentifier(exprNode.name as ts.Identifier);
         classes.push(`.${className}`);
 
         break;
