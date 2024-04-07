@@ -11,7 +11,7 @@ import {
   ObjectProperty,
   StringLiteral,
 } from '@babel/types';
-import { Undefinable } from 'option-t/lib/Undefinable';
+import { Undefinable } from 'option-t/cjs/Undefinable';
 import { andThenForUndefinable } from 'option-t/lib/Undefinable/andThen';
 import PostcssSelectorParser from 'postcss-selector-parser';
 
