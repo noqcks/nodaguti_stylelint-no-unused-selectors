@@ -144,7 +144,7 @@ function extractClassesAndIds(
             }
           }
 
-          if (attrNode.name.text === 'id') {
+          if (ts.isIdentifier(attrNode.name) && attrNode.name.text === 'id') {
             const idNames = extractAttributeValue(attrNode);
 
             if (idNames) {
