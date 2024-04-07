@@ -150,7 +150,7 @@ function extractClassesAndIds(
             if (idNames) {
               const normalisedIdNames = idNames
                 .split(' ')
-                .filter((i): boolean => !!i)
+                .filter((i: string): boolean => !!i)
                 .map((i): string => `#${i}`);
 
               ids.push(...normalisedIdNames);
