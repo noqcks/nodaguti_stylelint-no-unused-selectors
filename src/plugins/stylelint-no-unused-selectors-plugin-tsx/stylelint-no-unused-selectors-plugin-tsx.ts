@@ -131,7 +131,7 @@ function extractClassesAndIds(
         {
           const attrNode = node as ts.JsxAttribute;
 
-          if (extractTextFromIdentifier(attrNode.name) === 'className') {
+          if (ts.isIdentifier(attrNode.name) && extractTextFromIdentifier(attrNode.name) === 'className') {
             const classNames = extractAttributeValue(attrNode);
 
             if (classNames) {

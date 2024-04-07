@@ -44,7 +44,7 @@
     "postcss-resolve-nested-selector": "^0.1.1",
     "postcss-selector-parser": "^6.0.2",
     "string-template": "^1.0.0",
-    "typescript": "^3.4.5"
+    "typescript": "^5.4.4"
   },
   "peerDependencies": {
     "stylelint": "^9.10.1 || ^10.0.0"
