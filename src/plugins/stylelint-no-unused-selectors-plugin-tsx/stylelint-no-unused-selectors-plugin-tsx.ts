@@ -200,7 +200,7 @@ function extractClassesAndIds(
 
         andThenForUndefinable(
           specifier,
-          (s): void => void cssModuleSpecifiers.push(s),
+          (s: string): void => void cssModuleSpecifiers.push(s),
         );
 
         break;
