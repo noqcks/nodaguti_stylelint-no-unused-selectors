@@ -115,7 +115,7 @@ function extractClassesAndIds(ast: File): { classes: string[]; ids: string[] } {
             const normalisedIdNames = idNames
               .split(' ')
               .filter((i: string): boolean => !!i)
-              .map((i): string => `#${i}`);
+              .map((i: string): string => `#${i}`);
 
             ids.push(...normalisedIdNames);
           }
