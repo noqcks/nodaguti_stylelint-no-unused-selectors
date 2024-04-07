@@ -1,5 +1,5 @@
 import { JSDOM } from 'jsdom';
-import { Undefinable } from 'option-t/lib/Undefinable';
+import { Undefinable } from 'option-t/cjs/Undefinable';
 import PostcssSelectorParser from 'postcss-selector-parser';
 
 let dom: Undefinable<JSDOM> = undefined;
