@@ -2,7 +2,7 @@ import path from 'path';
 import fs from 'fs';
 import { promisify } from 'util';
 import format from 'string-template';
-import { Undefinable } from 'option-t/lib/Undefinable';
+import { Undefinable } from 'option-t/cjs/Undefinable';
 
 const readFile = promisify(fs.readFile);
 
