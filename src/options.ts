@@ -1,4 +1,4 @@
-import { Undefinable } from 'option-t/cjs/Undefinable';
+import { Undefinable } from 'option-t/lib/Undefinable';
 import stylelint from 'stylelint';
 import { Result } from 'postcss';
 
